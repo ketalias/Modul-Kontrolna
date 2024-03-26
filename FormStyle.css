@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(171, 114, 224);
+    color: aliceblue;
+}
+.registration{
+    background-color: rgb(125, 26, 217);
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.registration form label,
+.registration form input,
+.registration form select{
+    margin-bottom: 10px; 
+}
+
+#register{
+    width: 110%;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: large;
+    background-color: aliceblue;
+}
